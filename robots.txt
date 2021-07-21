@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: https://barramedajaymon.github.io/
+Disallow: https://www.barramedajaymon.github.io/
