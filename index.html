@@ -35,8 +35,6 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Flexslider  -->
 	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -100,12 +98,11 @@
 						</ul>
 					</div>
 				</nav>
-
 				<div class="colorlib-footer">
-					<p><small>&copy;
+					<p><small> &copy;
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							Copyright
-							<script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i
+							Copyright <span style="display: inline" id="copyright_date"></span>. All rights reserved.</small></p>  
+							 <p><small>Made with <i
 								class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
 								target="_blank">Colorlib</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -791,7 +788,13 @@
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<script src='https://cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.js'></script>
 
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+	<!-- Load our React component. -->
+	<script src="date.js"></script>
 </body>
 
 </html>
