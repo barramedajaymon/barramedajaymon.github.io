@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.barramedajaymon.github\.io$
+RewriteRule ^/?$ "http\:\/\/barramedajaymon\.io\/" [R=301,L]
